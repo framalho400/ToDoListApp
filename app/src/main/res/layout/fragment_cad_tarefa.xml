@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#12FFFFFF"
+    tools:context=".fragment.CadTarefaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="280dp"
+        android:background="@drawable/style"
+        android:backgroundTint="#BBBDC5"
+        android:text="@string/titulo_tarefa"
+        android:textAlignment="gravity"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_titulo"
+        android:layout_width="236dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="200dp"
+        android:background="@drawable/style"
+        android:backgroundTint="#E7E8EA"
+        android:backgroundTintMode="multiply"
+        android:ems="10"
+        android:hint="informe o titulo da tarefa:"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="110dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/style"
+        android:backgroundTint="#BBBDC5"
+        android:text="@string/descricao_tarefa"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edit_descricao"
+        android:layout_width="381dp"
+        android:layout_height="193dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/style"
+        android:backgroundTint="#E7E8EA"
+        android:backgroundTintMode="multiply"
+        android:hint="informe a descrição da tarefa:"
+        android:textAlignment="center"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/salvar_tarefa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:text="Salvar" />
+
+    <Button
+        android:id="@+id/data_tarefa"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:text="Selecione a Data" />
+
+
+</FrameLayout>

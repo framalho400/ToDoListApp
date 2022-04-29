@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">To Do ListApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="titulo_tarefa">Titulo da Tarefa</string>
+    <string name="descricao_tarefa">Descrição Tarefa</string>
+    <string name="data_tarefa">Data Prevista</string>
+    <string name="alerta_data">Informe a data !!</string>
+    <string name="alerta_titulo">Informe o titulo !!</string>
+    <string name="alerta_descricao">Informe a descrição !!</string>
+</resources>
